@@ -1,0 +1,82 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:3:26: object util is not a member of package SnakeGame.address[0m
+[0m[[0m[31merror[0m] [0m[0mimport SnakeGame.address.util.Database[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:4:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.application.JFXApp[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:6:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.Includes._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:7:8: not found: object scalafxml[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafxml.core.{FXMLLoader, NoDependencyResolver}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:8:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.scene.Scene[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:9:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.stage.Stage[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:10:26: object view is not a member of package SnakeGame.address[0m
+[0m[[0m[31merror[0m] [0m[0mimport SnakeGame.address.view.{DifficultySelectController, GameEnvironmentController, HowToPlayController, MainMenuController, ScoreboardController}[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:14:24: not found: type JFXApp[0m
+[0m[[0m[31merror[0m] [0m[0mobject MainApp extends JFXApp {[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:16:3: not found: value Database[0m
+[0m[[0m[31merror[0m] [0m[0m  Database.setupDB()[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:19:3: not found: value stage[0m
+[0m[[0m[31merror[0m] [0m[0m  stage = new JFXApp.PrimaryStage {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:23:26: not found: type Scene[0m
+[0m[[0m[31merror[0m] [0m[0m  def changeScene(scene: Scene): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:24:5: not found: value stage[0m
+[0m[[0m[31merror[0m] [0m[0m    stage.scene = scene[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:30:30: not found: type FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    val mainMenuLoader = new FXMLLoader(mainMenuResource, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:30:59: not found: value NoDependencyResolver[0m
+[0m[[0m[31merror[0m] [0m[0m    val mainMenuLoader = new FXMLLoader(mainMenuResource, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:32:29: not found: type Scene[0m
+[0m[[0m[31merror[0m] [0m[0m    val mainMenuScene = new Scene(mainMenuRoot)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:39:31: not found: type FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    val howToPlayLoader = new FXMLLoader(howToPlayResource, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:39:61: not found: value NoDependencyResolver[0m
+[0m[[0m[31merror[0m] [0m[0m    val howToPlayLoader = new FXMLLoader(howToPlayResource, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:41:30: not found: type Scene[0m
+[0m[[0m[31merror[0m] [0m[0m    val howToPlayScene = new Scene(howToPlayRoot)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:49:38: not found: type FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    val difficultySelectLoader = new FXMLLoader(difficultySelectResource, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:49:75: not found: value NoDependencyResolver[0m
+[0m[[0m[31merror[0m] [0m[0m    val difficultySelectLoader = new FXMLLoader(difficultySelectResource, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:51:37: not found: type Scene[0m
+[0m[[0m[31merror[0m] [0m[0m    val difficultySelectScene = new Scene(difficultySelectRoot)[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:59:30: not found: type FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    val gamePlayLoader = new FXMLLoader(gamePlayResource, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:59:59: not found: value NoDependencyResolver[0m
+[0m[[0m[31merror[0m] [0m[0m    val gamePlayLoader = new FXMLLoader(gamePlayResource, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:61:29: not found: type Scene[0m
+[0m[[0m[31merror[0m] [0m[0m    val gamePlayScene = new Scene(gamePlayRoot)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:71:32: not found: type FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    val scoreBoardLoader = new FXMLLoader(scoreBoardResource, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:71:63: not found: value NoDependencyResolver[0m
+[0m[[0m[31merror[0m] [0m[0m    val scoreBoardLoader = new FXMLLoader(scoreBoardResource, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Uni Assignment\Project_15085111\Snake Game\src\main\scala\SnakeGame\address\MainApp.scala:73:31: not found: type Scene[0m
+[0m[[0m[31merror[0m] [0m[0m    val scoreBoardScene = new Scene(scoreBoardRoot)[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m27 errors found[0m
